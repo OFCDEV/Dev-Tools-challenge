@@ -21,3 +21,9 @@ Projects
 Issues
 Issues are where most of the communication between a project's consumers and development team occurs. An issue can be created to discuss a broad set of topics, including bug reports, feature requests, documentation clarifications, and more. Once an issue has been created, it can be assigned to owners, labels, projects, and milestones. You can also associate issues with pull requests and other GitHub items to provide future traceability.
 
+Branches
+Branches are the preferred way to create changes in the GitHub flow. They provide isolation so that multiple people may simultaneously work on the same code in a controlled way. This model enables stability among critical branches, such as main, while allowing complete freedom for developers to commit any changes they need to meet their goals. Once the code from a branch is ready to become part of the main branch, it may be merged via pull request.
+
+Commits
+A commit is a change to one or more files on a branch. Every time a commit is created, it's assigned a unique ID and tracked, along with the time and contributor. This provides a clear audit trail for anyone reviewing the history of a file or linked item, such as an issue or pull request.
+
