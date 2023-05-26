@@ -27,3 +27,6 @@ Branches are the preferred way to create changes in the GitHub flow. They provid
 Commits
 A commit is a change to one or more files on a branch. Every time a commit is created, it's assigned a unique ID and tracked, along with the time and contributor. This provides a clear audit trail for anyone reviewing the history of a file or linked item, such as an issue or pull request.
 
+Pull Requests
+A pull request is the mechanism used to signal that the commits from one branch are ready to be merged into another branch. The developer submitting the pull request will often request one or more reviewers to verify the code and approve the merge. These reviewers have the opportunity to comment on changes, add their own, or use the pull request itself for further discussion. Once the changes have been approved (if approval is required), the pull request's source branch (the compare branch) may be merged in to the base branch.
+
