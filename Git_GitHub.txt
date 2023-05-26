@@ -1,0 +1,23 @@
+Git is a distributed version control system (DVCS) that allows multiple developers or other contributors to work on a project. It provides a way to work with one or more local branches and push them to a remote repository. Git is responsible for everything GitHub-related that happens locally on your computer. 
+
+Key features provided by Git include:
+  It's installed and used on your local machine
+  Handles version control 
+  Supports branching
+
+GitHub is a cloud platform that uses Git as its core technology. It simplifies the process of collaborating on projects and provides a website, command-line tools, and overall flow that allows developers and users to work together. GitHub acts as the "remote repository" mentioned previously in the Git section.
+
+Key features provided by GitHub include:
+
+Issues
+Discussions
+Pull requests
+Notifications
+Labels
+Actions
+Forks
+Projects
+
+Issues
+Issues are where most of the communication between a project's consumers and development team occurs. An issue can be created to discuss a broad set of topics, including bug reports, feature requests, documentation clarifications, and more. Once an issue has been created, it can be assigned to owners, labels, projects, and milestones. You can also associate issues with pull requests and other GitHub items to provide future traceability.
+
