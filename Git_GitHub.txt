@@ -30,3 +30,27 @@ A commit is a change to one or more files on a branch. Every time a commit is cr
 Pull Requests
 A pull request is the mechanism used to signal that the commits from one branch are ready to be merged into another branch. The developer submitting the pull request will often request one or more reviewers to verify the code and approve the merge. These reviewers have the opportunity to comment on changes, add their own, or use the pull request itself for further discussion. Once the changes have been approved (if approval is required), the pull request's source branch (the compare branch) may be merged in to the base branch.
 
+Labels
+Labels provide a way to categorize and organize issues and pull requests in a repository. As you create a GitHub repository several labels will automatically be added for you and new ones can also be created.
+
+Examples of Labels include:
+
+bug
+documentation
+duplicate
+help wanted
+enhancement
+question
+
+Actions
+GitHub actions provide task automation and workflow functionality in a repository. Actions can be used to streamline processes in your software development lifecycle and implement continuous integration and continuous deployment (CI/CD).
+
+GitHub Actions are composed of the following components:
+
+Workflows: Automated processes added to your repository.
+Events: An activity that triggers a workflow.
+Jobs: A set of steps that execute on a runner.
+Steps: A task that can run one or more commands (actions).
+Actions: Standalone commands that can be combined into steps. Multiple steps can be combined to create a job.
+Runners: Server that has the GitHub Actions runner application installed.
+
