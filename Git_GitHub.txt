@@ -54,3 +54,15 @@ Steps: A task that can run one or more commands (actions).
 Actions: Standalone commands that can be combined into steps. Multiple steps can be combined to create a job.
 Runners: Server that has the GitHub Actions runner application installed.
 
+MODULE 2:-
+    MIGRATION:-
+    Version control
+GitHub exclusively uses Git, arguably the best version-control system around. However, Git is incredibly sophisticated, and can present some complex scenarios for working with code that your team may not be experienced with. Branches and pull requests are a fundamental part of day-to-day life for developers using Git, so understanding when and how to use them effectively is necessary to be successful on GitHub. It's worthwhile for your team to first be familiar with the GitHub flow so you can hit the ground running.
+
+However, if you want to retain version-control history, you'll need to import using the GitHub Migrator tool. For more information about the import support for different version-control platforms, check out Importing data from third-party version control systems
+
+As a best practice, GitHub repositories should be limited to the files necessary for building projects. Avoid committing large binary files such as build artifacts. Binary files like spreadsheets and presentations are better suited to be tracked on portals that understand how to serve and version them properly. If you have a need to version large binary files, consider using the Git LFS (Large File Storage) Git extension.
+
+Git supports .gitignore files to help enforce version-control file policies. These files define the search patterns used to exclude files and folders from source-control tracking. The following simple example recursively excludes any folders called Bin or bin, as well as their contents, from source-control tracking.
+
+We recommend that you use the git client or a Git-friendly tool to upload your source. Alternatively, you can manually upload your files using the creating a new file link. Over the long run, you'll likely find that using a git client will be the best way to manage changes, branches, and more
