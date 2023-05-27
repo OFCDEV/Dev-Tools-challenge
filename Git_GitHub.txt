@@ -66,3 +66,10 @@ As a best practice, GitHub repositories should be limited to the files necessary
 Git supports .gitignore files to help enforce version-control file policies. These files define the search patterns used to exclude files and folders from source-control tracking. The following simple example recursively excludes any folders called Bin or bin, as well as their contents, from source-control tracking.
 
 We recommend that you use the git client or a Git-friendly tool to upload your source. Alternatively, you can manually upload your files using the creating a new file link. Over the long run, you'll likely find that using a git client will be the best way to manage changes, branches, and more
+
+If you have a project hosted on another version control system, you can automatically import it to GitHub using the GitHub Importer tool. GitHub Importer is not suitable for all imports. For example, if your existing code is hosted on a private network, our tool won't be able to access it. In these cases, we recommend importing using the command line for Git repositories or an external source-code migration tool for projects imported from other version-control systems.
+
+During an import, you can match commits in your repository with the GitHub account of the commit author.GitHub Importer looks for GitHub users whose email addresses match the authors of the commits in the repository you're importing. You can then connect a commit to its author using their email address or the author's GitHub username.
+
+What is a pull request?
+A pull request is a mechanism used to communicate that changes from one branch are ready to be merged into another. They offer an opportunity for stakeholders to review and discuss the proposed changes to ensure that the code quality in the base branch is kept as high as possible.
